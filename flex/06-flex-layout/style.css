@@ -67,10 +67,11 @@ li {
   gap: 1;
 }
 
-.container {
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .input, .buttons {
